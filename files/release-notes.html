@@ -20,6 +20,33 @@
                     <section>
                         <h2>Release Notes</h2>
 
+                        <h3>3.6.9 Release</h3>07/12/2024
+                        <ul>
+                            <li>Refined parameter type '__tile' into 'constexpr int'.</li>
+                            <li>Refined the description of _may_i_use_cpu_feature_str to illustrate supported string literals.</li>
+                            <li>Corrected the CPUID of the SHA512, SM3, and SM4 intrinsics.</li>
+                        </ul>
+                        <h3>3.6.8 Release</h3>04/12/2024
+                        <ul>
+                            <li>Added intrinsics for USER_MSR.</li>
+                            <li>Corrected description and operation of _mm_*_fixupimm_*_s*.</li>
+                            <li>Corrected Description of *_nearbyint_p[h|s], *_logb_ph, *_floor_ph, *_round_ph, *_trunc_ph, and *_ceil_ph.</li>
+                            <li>Added more supported flags in _may_i_use_cpu_feature_ext.</li>
+                        </ul>
+                        <h3>3.6.7 Release</h3>12/07/2023
+                        <ul>
+                            <li>Removed const from first argument of _pconfig_u32.</li>
+                            <li>Corrected related description of size_t argument.</li>
+                            <li>Added 4 intrinsics for AVX512F: _mm(256)_rsqrt14_p*.</li>
+                            <li>Removed extended gather/scatter intrinsics.</li>
+                            <li>Removed more KNC intrinsics.</li>
+                            <li>Added 2 general support intrinsics: _may_i_use_cpu_feature_ext and _may_i_use_cpu_feature_str.</li>
+                            <li>Added intrinsics for AVX_VNNI_INT16.</li>
+                            <li>Added intrinsics for SHA512.</li>
+                            <li>Added intrinsics for SM3.</li>
+                            <li>Added intrinsics for SM4.</li>
+                            <li>Aligned stream series intrinsics use void * as 512 variants.</li>
+                        </ul>
                         <h3>3.6.6 Release</h3>05/10/2023
                         <ul>
                             <li>Added intrinsic for PRFCHW.</li>

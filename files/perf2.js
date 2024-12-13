@@ -2193,10 +2193,6 @@ perf2_js = {
 		{"Sapphire Rapids":{l:"0",t:"0.333333333"}},
 		{"Skylake":{l:"5",t:"0.5"}},
 	],
-	"PREFETCHWT1_MEMu8":[
-		{"Alderlake":{l:"0",t:"0.333333333"}},
-		{"Sapphire Rapids":{l:"0",t:"0.333333333"}},
-	],
 	"PSADBW_MMXq_MMXq":[
 		{"Alderlake":{l:"3",t:"1"}},
 		{"Icelake Intel Core":{l:"3",t:"1"}},
